@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: darkslategrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#pad-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 540px;
+  height: 540px;
+  border: 2px solid black;
+  padding: 1px;
+  background-color: white;
+}
+
+#pad-container div {
+  box-sizing: border-box;
+  border: 1px dotted grey;
+  background-color: white;
+}
